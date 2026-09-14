@@ -4,7 +4,7 @@ This module explores linear modeling, polynomial complexity, and penalty regular
 
 ---
 
-## 🔬 Experiments & Projects
+## Experiments & Projects
 
 ### 1. Hooke’s Law: Model Complexity & Overfitting Analysis
 * **Physical System:** Ideal 1D spring force ($F = -kx$, $k = 5\text{ N/m}$) subjected to Gaussian noise $\eta \sim \mathcal{N}(0, \sigma^2)$.
@@ -19,7 +19,7 @@ This module explores linear modeling, polynomial complexity, and penalty regular
 * **Physical System:** 1D vertical displacement under uniform gravitational acceleration ($y = \frac{1}{2}gt^2$).
 * **Implementation:** Built both **from scratch** using closed-form linear algebra and benchmarked against **`scikit-learn`**.
 
-#### 📐 Mathematical Formulations Implemented:
+#### Mathematical Formulations Implemented:
 * **Ordinary Least Squares (OLS):** Closed-form minimization:
   $$\hat{\mathbf{w}}_{\text{OLS}} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}$$
 * **Ridge Regression ($L_2$ Regularization):** Shrinkage penalty to control parameter magnitude:
@@ -27,12 +27,12 @@ This module explores linear modeling, polynomial complexity, and penalty regular
 * **LASSO Regression ($L_1$ Regularization):** Feature selection and sparsity via convex optimization:
   $$\hat{\mathbf{w}}_{\text{LASSO}} = \arg\min_{\mathbf{w}} \left( \|\mathbf{X}\mathbf{w} - \mathbf{y}\|_2^2 + \lambda\|\mathbf{w}\|_1 \right)$$
 
-#### 📊 Key Findings:
+#### Key Findings:
 * Under severe stochastic noise ($\sigma \ge 100$), Ridge regression provided superior stability by dampening coefficient growth, whereas extreme $\lambda$ values in LASSO caused excessive shrinkage towards flat predictions.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Run polynomial regression on Hooke's Law
