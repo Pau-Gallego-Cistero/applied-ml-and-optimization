@@ -26,6 +26,3 @@ Developed as part of the **Artificial Intelligence & Physics** curriculum at **U
 
 ---
 *Each directory contains runnable Python code, full academic PDF reports, and theoretical derivations.*
-
----
-*Each directory contains runnable Python code, full academic PDF reports, and theoretical derivations.*
