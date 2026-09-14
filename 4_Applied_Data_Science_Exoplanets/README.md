@@ -8,4 +8,10 @@ Applied data science project analyzing astrophysical data from the **Open Exopla
 * **Visualization:** Multi-variable distribution plots and feature importance rankings.
 
 ## Feature Importance Preview
-![Feature Sorting](feature_importance.png)
+| Característica / Variable | Método de Detección Asociado |
+| :--- | :--- |
+| **Periodo Corto** | Tránsito |
+| **Alta Masa** | Velocidad Radial / Astrometría |
+| **Distancia a la Tierra pequeña** | Imagen Directa / Microlente |
+| **Estrella Fría (Baja Temp)** | Imagen Directa (mayor contraste) |
+| **Estrella Masiva** | Velocidad Radial (más difícil de mover) |
