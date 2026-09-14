@@ -7,11 +7,10 @@ Applied data science project analyzing astrophysical data from the **Open Exopla
 * **Feature Selection & Correlation:** Investigated planetary mass, orbital period, and stellar properties to find governing correlations.
 * **Visualization:** Multi-variable distribution plots and feature importance rankings.
 
-## Feature Importance Preview
-| Característica / Variable | Método de Detección Asociado |
+| Feature / Variable | Associated Detection Method |
 | :--- | :--- |
-| **Periodo Corto** | Tránsito |
-| **Alta Masa** | Velocidad Radial / Astrometría |
-| **Distancia a la Tierra pequeña** | Imagen Directa / Microlente |
-| **Estrella Fría (Baja Temp)** | Imagen Directa (mayor contraste) |
-| **Estrella Masiva** | Velocidad Radial (más difícil de mover) |
+| **Short Orbital Period** | Transit Method |
+| **High Planetary Mass** | Radial Velocity / Astrometry |
+| **Proximity to Earth (Small Distance)** | Direct Imaging / Gravitational Microlensing |
+| **Cool Host Star (Low Temperature)** | Direct Imaging (Enhanced Contrast) |
+| **Massive Host Star** | Radial Velocity (Harder to induce reflex motion) |
