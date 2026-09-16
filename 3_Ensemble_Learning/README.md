@@ -4,8 +4,6 @@ Evaluating Bagging, Boosting, and Voting architectures across medical diagnostic
 
 ---
 
-## 📂 Projects
-
 ### 1. Clinical Diagnosis: Breast Cancer Classification
 * **Models:** Random Forest, AdaBoost, Gradient Boosting, and Voting Classifiers (Hard vs. Soft).
 * **Key Finding:** **Soft Voting** (Logistic Regression + Random Forest) proved the most stable method (~98% accuracy), combining linear stability with non-linear flexibility to avoid overfitting small sample splits.
