@@ -14,7 +14,7 @@ Evaluating Bagging, Boosting, and Voting architectures across medical diagnostic
 
 ---
 
-## 🤖 AI Integration
+## AI Integration
 AI tools were used as a technical assistant to:
 * Scaffold and debug `scikit-learn` preprocessing pipelines (preventing data leakage with `StandardScaler`).
 * Enhance comparative Matplotlib charts (automating percentage labels on model accuracy bars).
@@ -22,7 +22,7 @@ AI tools were used as a technical assistant to:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 python breast_cancer_ensemble_classification.py
