@@ -8,7 +8,11 @@ Evaluating Bagging, Boosting, and Voting architectures across medical diagnostic
 * **Models:** Random Forest, AdaBoost, Gradient Boosting, and Voting Classifiers (Hard vs. Soft).
 * **Key Finding:** **Soft Voting** (Logistic Regression + Random Forest) proved the most stable method (~98% accuracy), combining linear stability with non-linear flexibility to avoid overfitting small sample splits.
 
-### 2. Statistical Mechanics: 2D Ising Model Phase Transition
+### 2. Multiclass Classification: Wine Dataset Boosting
+* **Objective:** Benchmarking sequential error-correcting ensembles (Gradient Boosting vs. AdaBoost) on a 3-class dataset to evaluate bias-variance tradeoffs and overfitting tendencies.
+* **Key Finding:** Both boosting algorithms achieved high accuracy, but Gradient Boosting exhibited slight overfitting on the training data. A properly scaled Logistic Regression baseline proved equally competitive without the high variance risk.
+
+### 3. Statistical Mechanics: 2D Ising Model Phase Transition
 * **Objective:** Detecting the critical phase transition ($T_c$) between ordered ferromagnetic and disordered paramagnetic states directly from 2D spin configurations.
 * **Method:** Supervised classification using tree-based ensembles trained on Monte Carlo lattice states.
 
